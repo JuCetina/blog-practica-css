@@ -1,0 +1,29 @@
+@media screen and (max-width: 900px){
+    .blogs-main-new{
+        grid-template-columns: 1fr;
+    }
+
+    .blogs-posts-container .post-container{
+        max-width: 45%;
+    }
+
+    .projects-main-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .blogs-posts-container .post-container{
+        max-width: 95%;
+    }
+
+    .profile-main-container .profile-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .projects-main-container{
+        grid-template-columns: 1fr;
+    }
+}
